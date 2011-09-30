@@ -1,5 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/edgecase')
 
+
 class AboutStrings < EdgeCase::Koan
   def test_double_quoted_strings_are_strings
     string = "Hello, World"
